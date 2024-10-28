@@ -36,3 +36,6 @@ messaggio
 
 const parola1 = prompt("Inserisci prima parola");
 console.log(parola1);
+
+const parola2 = prompt("Inserisci seconda parola");
+console.log(parola2);
