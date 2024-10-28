@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 /* 
     Tutte le istruzioni in questo file vengono eseguite
     riga per riga dall'alto verso il basso fino al termine
@@ -7,53 +7,32 @@
 */
 console.clear();
 
-//console.log("Hello World !");
-
-const meteo = "soleggiato";
-console.log("Meteo:", meteo);
+// console.log("Hello World !");
+// const meteo = "soleggiato";
+// console.log("Meteo:", meteo);
 // console.log("Meteo" + " " + meteo);
 // console.log(`Meteo: ${meteo}`);
 
-let messaggio = "Esci a fare una passeggiata !";
-
-console.log(messaggio);
-console.log(nome);
 /*
+Una condizione è un Valore oppure il valore che risulta da una espressione
+che può essere solo TRUE o FALSE
+*/
+
+/*
+Chiediamo all'utente due parole
+Andiamo poi a verificare quale delle due parole è più lunga e stampiamo in console un messaggio appropriato.
 
 
+Fase 1 - Preparazione
+Obiettivo o output: messaggio che comunichi quale'è la parola più lunga
 
+Fase 2 - Raccolta dati
+parola1
+parola2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-CONTROLLI DI FLUSSO: CONDIZIONALI E CICLI
-
-CONDIZIONALI: IF
-if (meteo === "pioggia") {
-  messaggio = "Prendi l'ombrello prima di uscire!";
-}
-
-CICLI: FOR
-
-for (let i=1; i <= 10; i++ ){    
-    // ripeti queste istruzioni finchè i non supera 10
-}
+messaggio
 
 */
+
+const parola1 = prompt("Inserisci prima parola");
+console.log(parola1);
